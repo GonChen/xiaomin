@@ -75,7 +75,7 @@ int main() {
     char* upper_case_str = genRandUppercaseStr(5);
     char* symbol_str = genRandSymbolStr(2);
     char* packed_str = strConcat(num_str, lower_case_str, upper_case_str, symbol_str);
-    printf("The generated string: %s", packed_str);
+    printf("xxxxxxxxxxxx: The generated string: %s\n", packed_str);
     free(num_str);
     free(lower_case_str);
     free(upper_case_str);
